@@ -8,11 +8,18 @@ body {
   box-sizing: border-box;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 .titleMajor,
 .center {
   text-align: center;
   list-style-type: none;
 }
+
 
 .titleMajor {
   font-size: 100px;
@@ -32,4 +39,17 @@ a:hover {
 
 a:active {
   color: rgb(231, 78, 121);
+}
+
+.main-center {
+  border: 10px solid white;
+  height: 980px;
+  width: 700px;
+  margin: 60px auto;
+}
+
+.recipe01,
+.recipe02,
+.recipe03 {
+  padding: 80px;
 }
